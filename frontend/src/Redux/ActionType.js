@@ -1,0 +1,8 @@
+export const ADDTOCART="ADDTOCART"
+export const REMOVEFROMCART="REMOVEFROMCART"
+export const LOGIN="LOGIN"
+export const REGISTER="REGISTRE"
+export const GETCURRENT="GETCURRENT"
+export const LOGOUT="LOGOUT"
+export const ALERT_ERROR="ALERT_ERROR"
+export const CLEAR_ERROR="CLEAR_ERROR"

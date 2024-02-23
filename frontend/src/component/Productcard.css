@@ -1,0 +1,21 @@
+.custom-card {
+  background-image: linear-gradient(45deg, #e8b6a9, #14d4ed);
+  color: white;
+  border: 2px solid #333;
+  border-radius: 8px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  transition: transform 0.4s ease, box-shadow 0.4s ease; /* Add smooth transitions */
+  overflow: hidden; /* Hide overflowing content */
+}
+
+.custom-card:hover {
+  transform: translateY(-5px); /* Add a slight upward lift on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhance the shadow on hover */
+}
+
+.product-card-container {
+  display: flex;
+  justify-content: center; /* Align items horizontally at the center */
+  margin-bottom: 20px; /* Add some margin at the bottom */
+}
